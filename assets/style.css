@@ -1,0 +1,58 @@
+#header h1 {
+    text-align: center;
+    color: #ff6701;
+    border: 2px double #45ff45;
+}
+
+#header .paragraph-1 p:nth-child(2):first-letter {
+    color: #01ff01;
+    font-size: 48px;
+    position: relative;
+}
+
+#header .paragraph-1 img {
+    float: right;
+}
+
+#header .image {
+    width: 240px;
+    height: 180px;
+    background: url(./images/bay-cuu.jpg) no-repeat;
+    float: left;
+    margin-right: 30px;
+}
+
+#header .content p:last-child b {
+    background-color: #ff6601;
+}
+
+#footer h2 {
+    background-color: #45ff45;
+    color: #ffffff;
+    text-align: right;
+    padding: 5px 0px;
+    margin: 0px;
+}
+
+#footer .box {
+    display: flex;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+#footer .box p {
+    text-align: justify;
+    width: 95%;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+#footer .box img {
+    width: 5%;
+    height: 90%;
+}
+
+#footer hr {
+    border: solid #ff8e43;
+    margin: 0;
+}
